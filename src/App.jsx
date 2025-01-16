@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TodoList from './components/TodoList';
 import AdminPanel from './components/AdminPanel';
 import RoleSelector from './components/RoleSelector';
+import './index.css';
 
 const App = () => {
   const [userRole, setUserRole] = useState('free');
